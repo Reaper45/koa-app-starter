@@ -1,0 +1,26 @@
+{
+  "name": "jiwe-blob",
+  "version": "1.0.0",
+  "description": "Azure Blob storage service for jiwe.io",
+  "main": "index.js",
+  "repository": "https://github.com/Reaper45/jiwe-blob.git",
+  "author": "Joram <jomwashighadi@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "./node_modules/nodemon/bin/nodemon.js src/server.js",
+    "start": "node src/server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "@koa/router": "^9.0.1",
+    "dotenv": "^8.2.0",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-helmet": "^5.2.0",
+    "koa-json": "^2.0.2"
+  }
+}
