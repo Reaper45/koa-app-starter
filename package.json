@@ -1,9 +1,9 @@
 {
-  "name": "jiwe-blob",
+  "name": "koa-app",
   "version": "1.0.0",
-  "description": "Azure Blob storage service for jiwe.io",
+  "description": "Simple koa app starter kit",
   "main": "index.js",
-  "repository": "https://github.com/Reaper45/jiwe-blob.git",
+  "repository": "https://github.com/Reaper45/koa-app.git",
   "author": "Joram <jomwashighadi@gmail.com>",
   "license": "MIT",
   "private": true,
